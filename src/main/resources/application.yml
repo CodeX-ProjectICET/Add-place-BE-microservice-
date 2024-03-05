@@ -1,0 +1,15 @@
+
+server:
+  port : 8081
+
+
+spring :
+  datasource:
+    url : jdbc:mysql://localhost:3306/tourismApp
+    username : root
+    password : dindragon8
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
